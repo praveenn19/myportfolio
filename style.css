@@ -1,7 +1,3 @@
-/* =========================
-   BASIC SETTINGS
-========================= */
-
 * {
     margin: 0;
     padding: 0;
@@ -14,19 +10,16 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background: #f8fafc;
-    color: #1e293b;
+    background: #F8F5FF;
+    color: #29223D;
     line-height: 1.6;
 }
 
-
-/* =========================
-   NAVIGATION
-========================= */
+/* NAVBAR */
 
 header {
-    background: white;
-    border-bottom: 1px solid #e5e7eb;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E8DFFF;
 
     position: sticky;
     top: 0;
@@ -45,7 +38,7 @@ header {
 
 .logo {
     font-size: 24px;
-    color: #2563eb;
+    color: #8B6BBE;
 }
 
 .nav-links {
@@ -56,20 +49,17 @@ header {
 
 .nav-links a {
     text-decoration: none;
-    color: #334155;
+    color: #514765;
     font-weight: 500;
-
     transition: 0.3s;
 }
 
 .nav-links a:hover {
-    color: #2563eb;
+    color: #8B6BBE;
 }
 
 
-/* =========================
-   HOME
-========================= */
+/* HOME */
 
 .hero {
     min-height: 90vh;
@@ -86,7 +76,7 @@ header {
 }
 
 .small-text {
-    color: #2563eb;
+    color: #9275C2;
     font-weight: bold;
     letter-spacing: 3px;
     margin-bottom: 10px;
@@ -95,69 +85,62 @@ header {
 .hero h1 {
     font-size: 60px;
     margin-bottom: 5px;
+    color: #302743;
 }
 
 .hero h2 {
     font-size: 28px;
     font-weight: 500;
-    color: #64748b;
+    color: #81758F;
     margin-bottom: 20px;
 }
 
 .hero p {
     max-width: 600px;
-    color: #64748b;
+    color: #81758F;
     font-size: 18px;
 }
 
 
-/* =========================
-   BUTTONS
-========================= */
+/* BUTTONS */
 
 .buttons {
     margin-top: 30px;
-
     display: flex;
     gap: 15px;
 }
 
 .btn {
     display: inline-block;
-
     padding: 12px 22px;
 
-    background: #2563eb;
+    background: #9B7BC7;
     color: white;
 
     text-decoration: none;
-
     border-radius: 8px;
 
     transition: 0.3s;
 }
 
 .btn:hover {
-    background: #1d4ed8;
+    background: #8968B8;
     transform: translateY(-2px);
 }
 
 .btn.outline {
     background: transparent;
-    color: #2563eb;
-
-    border: 1px solid #2563eb;
+    color: #8968B8;
+    border: 1px solid #9B7BC7;
 }
 
 .btn.outline:hover {
-    background: #2563eb;
+    background: #9B7BC7;
     color: white;
 }
 
 
-/* =========================
-   SECTIONS
-========================= */
+/* SECTIONS */
 
 .section {
     max-width: 1100px;
@@ -167,16 +150,13 @@ header {
 
 .section > h2 {
     text-align: center;
-
     font-size: 35px;
-
     margin-bottom: 40px;
+    color: #302743;
 }
 
 
-/* =========================
-   ABOUT
-========================= */
+/* ABOUT */
 
 .about-box {
     max-width: 750px;
@@ -184,8 +164,7 @@ header {
 
     text-align: center;
 
-    color: #64748b;
-
+    color: #81758F;
     font-size: 17px;
 }
 
@@ -194,26 +173,21 @@ header {
 }
 
 
-/* =========================
-   SKILLS
-========================= */
+/* SKILLS */
 
 .skills-container {
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
-
     gap: 20px;
 }
 
 .skill {
-    background: white;
-
+    background: #FFFFFF;
     padding: 25px;
 
     border-radius: 12px;
 
-    border: 1px solid #e5e7eb;
+    border: 1px solid #E4D9F5;
 
     transition: 0.3s;
 }
@@ -221,41 +195,35 @@ header {
 .skill:hover {
     transform: translateY(-5px);
 
-    box-shadow:
-        0 10px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 25px rgba(139, 107, 190, 0.15);
 }
 
 .skill h3 {
-    color: #2563eb;
-
+    color: #8B6BBE;
     margin-bottom: 10px;
 }
 
 .skill p {
-    color: #64748b;
+    color: #81758F;
 }
 
 
-/* =========================
-   PROJECTS
-========================= */
+/* PROJECTS */
 
 .projects-container {
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
-
     gap: 25px;
 }
 
 .project-card {
-    background: white;
+    background: #FFFFFF;
 
     padding: 30px;
 
     border-radius: 12px;
 
-    border: 1px solid #e5e7eb;
+    border: 1px solid #E4D9F5;
 
     transition: 0.3s;
 }
@@ -263,25 +231,22 @@ header {
 .project-card:hover {
     transform: translateY(-5px);
 
-    box-shadow:
-        0 10px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 25px rgba(139, 107, 190, 0.15);
 }
 
 .project-card h3 {
     margin-bottom: 15px;
+    color: #302743;
 }
 
 .project-card p {
-    color: #64748b;
-
+    color: #81758F;
     margin-bottom: 20px;
 }
 
 .project-link {
-    color: #2563eb;
-
+    color: #8B6BBE;
     text-decoration: none;
-
     font-weight: bold;
 }
 
@@ -290,33 +255,27 @@ header {
 }
 
 
-/* =========================
-   CONTACT
-========================= */
+/* CONTACT */
 
 .contact {
     text-align: center;
 }
 
 .contact > p {
-    color: #64748b;
+    color: #81758F;
 }
 
 .contact-links {
     margin-top: 25px;
 
     display: flex;
-
     justify-content: center;
-
     gap: 20px;
 }
 
 .contact-links a {
-    color: #2563eb;
-
+    color: #8B6BBE;
     text-decoration: none;
-
     font-weight: bold;
 }
 
@@ -325,44 +284,36 @@ header {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 
 footer {
     text-align: center;
 
     padding: 25px;
 
-    background: #0f172a;
+    background: #E8DDF5;
 
-    color: white;
+    color: #514765;
 }
 
 
-/* =========================
-   MOBILE
-========================= */
+/* MOBILE */
 
 @media (max-width: 768px) {
 
     .navbar {
         flex-direction: column;
-
         gap: 15px;
     }
 
     .nav-links {
         gap: 15px;
-
         flex-wrap: wrap;
-
         justify-content: center;
     }
 
     .hero {
         min-height: 80vh;
-
         text-align: center;
     }
 
@@ -380,7 +331,6 @@ footer {
 
     .buttons {
         justify-content: center;
-
         flex-wrap: wrap;
     }
 
@@ -394,9 +344,7 @@ footer {
 }
 
 
-/* =========================
-   SMALL PHONES
-========================= */
+/* SMALL PHONES */
 
 @media (max-width: 480px) {
 
@@ -415,5 +363,4 @@ footer {
     .nav-links {
         font-size: 14px;
     }
-
-  }
+}
