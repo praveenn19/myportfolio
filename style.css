@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
 
-
 /* =========================
    BASIC SETTINGS
 ========================= */
@@ -17,7 +16,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #F7F2FC;
+    background: #F8F3FC;
     color: #302044;
     line-height: 1.7;
 }
@@ -34,8 +33,8 @@ h3 {
 ========================= */
 
 header {
-    background: #FFFFFF;
-    border-bottom: 1px solid #E2D5F0;
+    background: #FCF9FF;
+    border-bottom: 1px solid #E8DDF2;
 
     position: sticky;
     top: 0;
@@ -85,8 +84,6 @@ header {
 .hero {
     min-height: 88vh;
 
-    max-width: 100%;
-
     padding: 80px 25px;
 
     display: flex;
@@ -95,13 +92,12 @@ header {
 
     text-align: center;
 
-    background:
-        linear-gradient(
-            135deg,
-            #6F42A8,
-            #8055B5,
-            #A98BD4
-        );
+    background: linear-gradient(
+        135deg,
+        #6F42A8,
+        #8055B5,
+        #A98BD4
+    );
 
     color: white;
 }
@@ -174,7 +170,7 @@ header {
 
     padding: 12px 25px;
 
-    background: #FFFFFF;
+    background: #FCF9FF;
 
     color: #7042A8;
 
@@ -194,7 +190,7 @@ header {
 .btn:hover {
     transform: translateY(-3px);
 
-    background: #F2E9FA;
+    background: #F1E8FA;
 
     box-shadow: 0 12px 25px rgba(45, 20, 70, 0.25);
 }
@@ -210,7 +206,7 @@ header {
 }
 
 .btn.outline:hover {
-    background: #FFFFFF;
+    background: #FCF9FF;
 
     color: #7042A8;
 }
@@ -275,13 +271,13 @@ header {
 }
 
 .skill {
-    background: #FFFFFF;
+    background: #FCF9FF;
 
     padding: 30px;
 
     border-radius: 16px;
 
-    border: 1px solid #E1D3F0;
+    border: 1px solid #E5D9F0;
 
     border-left: 6px solid #7B4BB7;
 
@@ -329,13 +325,13 @@ header {
 }
 
 .project-card {
-    background: #FFFFFF;
+    background: #FCF9FF;
 
     padding: 30px;
 
     border-radius: 16px;
 
-    border: 1px solid #E1D3F0;
+    border: 1px solid #E5D9F0;
 
     border-left: 6px solid #7B4BB7;
 
@@ -440,9 +436,9 @@ footer {
 
     padding: 25px;
 
-    background: #5E3292;
+    background: #E8D8F5;
 
-    color: #FFFFFF;
+    color: #4C3A5C;
 
     font-size: 13px;
 }
